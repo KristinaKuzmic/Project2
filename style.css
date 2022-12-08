@@ -1,0 +1,91 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    background-color:whitesmoke;
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin-top: 3rem;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 50%; 
+    width: 3rem;
+    height: 3rem;
+    background-color: #b5b2b2;
+    font-size: x-large;
+    text-transform: uppercase
+}
+
+#sekcija{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 70px;
+}
+.ostatak{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.sekcija2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+#toDo{
+    /*align-items: center;*/
+    background-color: white;
+    margin: 5rem 20rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5%;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+input{
+    width: 10rem;
+    height: 2rem;
+}
+.close{
+    padding: 0.7em 0.8rem;
+    border:   2px solid grey;
+    border-radius: 50%;
+    
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
